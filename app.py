@@ -22,7 +22,7 @@ def favorite_dessert(users_dessert):
     """Display a message to the user that changes based on their favorite dessert."""
     return f'How did you know I liked {users_dessert}?!'
 
-@app.route('/madlib/<adjective>/<noun>')
+@app.route('/madlibs/<adjective>/<noun>')
 def madlib(adjective,noun):
     """Display a madlib story based on the user input."""
     return f'There once was a {adjective} {noun} who was scared of heights.\n To help rid them of their fear, their other {noun} friends decided to book a surpise sky diving trip!'
